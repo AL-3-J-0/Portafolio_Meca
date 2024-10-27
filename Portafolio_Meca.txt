@@ -1,0 +1,50 @@
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio Mecatronica</title>
+</head>
+<body>
+    <header>
+        <div id="contenerdor_cabecera">
+            <img src="Logo_Sena" alt="">
+            <h1 id="titulo">PORTAFOLIO MODALIDAD DE MECATRONICA</h1>
+            <img src="Logo_Inem" alt="">
+        </div>
+        <div id="contenedor_banner">
+            <p id="descripcion">Modalidad en articulacion con el SENA</p>
+        </div>
+    </header> 
+</body>
+</html>
+
+
+STYLE.CSS
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 200px;
+}
+#contenedor_cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contenedor_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    height: 200px;
+}
+#descripcion{
+    font-size: xx-large
+}
